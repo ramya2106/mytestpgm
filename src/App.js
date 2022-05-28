@@ -15,6 +15,11 @@ import Lcm from './components/Lcm';
 import Hcf from './components/Hcf';
 import Factors from './components/Factors';
 import Amicable from './components/Amicable';
+import Frequent from './components/Frequent';
+import Bsorting from './components/Bsorting';
+import Sorting from './components/Sorting';
+import Stringcombo from './components/Stringcombo';
+import Interest from './components/Interest';
 
 const App = () => {
   return (
@@ -35,6 +40,11 @@ const App = () => {
         <Route path='/hcf' element={<Hcf/>} />
         <Route path='/amicable' element={<Amicable/>} />
         <Route path='/factors' element={<Factors/>} />
+        <Route path='/stringcombo' element={<Stringcombo/>} />
+        <Route path='/interest' element={<Interest/>} />
+        <Route path='/frequent' element={<Frequent/>} />
+        <Route path='/sort' element={<Sorting/>} />
+        <Route path='/bsort' element={<Bsorting/>} />
        </Routes>
     </div>
   )

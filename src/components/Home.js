@@ -49,6 +49,21 @@ const Home = () => {
             <li>
             <Link to="/factors">Factors of given number</Link>
             </li>
+            <li>
+            <Link to="/stringcombo">Print name in all possible combination</Link>
+            </li>
+            <li>
+            <Link to="/interest">Simple and Compound Interest</Link>
+            </li>
+            <li>
+            <Link to="/frequent">Most Occuring Elements in an Array</Link>
+            </li>
+            <li>
+            <Link to="/sort">Sort Words in Alphabetical Order</Link>
+            </li>
+            <li>
+            <Link to="/bsort">Bubble sort</Link>
+            </li>
         </ul>
     </div>
   )
