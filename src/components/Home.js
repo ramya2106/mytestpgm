@@ -10,6 +10,9 @@ const Home = () => {
             <li>
             <Link to="/rvowels">Remove the vowels from the given string</Link>
             </li>
+            <li>
+            <Link to="/cvowels">Counts the vowels in the string</Link>
+            </li>
         </ul>
     </div>
   )
