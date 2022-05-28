@@ -3,7 +3,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
  }
  .wrapper{
-     background-color: #e9caeb;
+     background-color: #e3eee3;
     
      max-width: 400px;
      width: 100%;
@@ -17,7 +17,7 @@
      width: 100%;
      height: 100vh;
      padding: 10px;
-     background: linear-gradient(to bottom, #6060de 0%,#985f9b 50%, #e849ab 100%);
+     background: linear-gradient(to bottom, #47b8dd 0%,#49e8d2 50%, #49e897 100%);
    }
  
    .wrapper header{
@@ -35,11 +35,11 @@
      button {
        width: 17%;
        height:6vh;
-       background:rgb(232, 164, 204);
+       background:rgb(31 209 190);
        border:#686eea;
        font-family: sans-serif;
        border-radius: 25px;
-       border: 2px solid #e8a4cc;
+       border: 2px solid #686eea;
        margin-left: 10px;
     }
     .result {
