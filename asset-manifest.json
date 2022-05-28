@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/mytestpgm/static/css/main.f8bf60d2.css",
+    "main.js": "/mytestpgm/static/js/main.6e86a9b4.js",
+    "index.html": "/mytestpgm/index.html",
+    "main.f8bf60d2.css.map": "/mytestpgm/static/css/main.f8bf60d2.css.map",
+    "main.6e86a9b4.js.map": "/mytestpgm/static/js/main.6e86a9b4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f8bf60d2.css",
+    "static/js/main.6e86a9b4.js"
+  ]
+}
