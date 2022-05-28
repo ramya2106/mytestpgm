@@ -8,6 +8,7 @@ import Palindrome from './components/Palindrome';
 import Stringlen from './components/Stringlen';
 import Prime from './components/Prime';
 import Fibonacci from './components/Fibonacci';
+import Anagram from './components/Anagram';
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
         <Route path='/strlen' element={<Stringlen/>} />
         <Route path='/prime' element={<Prime/>} />
         <Route path='/fibonacci' element={<Fibonacci/>} />
+        <Route path='/anagram' element={<Anagram/>} />
        </Routes>
     </div>
   )

@@ -28,6 +28,9 @@ const Home = () => {
             <li>
             <Link to="/fibonacci">Fibonacci Series</Link>
             </li>
+            <li>
+            <Link to="/anagram">Anagram or not</Link>
+            </li>
         </ul>
     </div>
   )
