@@ -19,6 +19,9 @@ const Home = () => {
             <li>
             <Link to="/palindrome">Palindrome for a given number</Link>
             </li>
+            <li>
+            <Link to="/strlen">Number of words in string</Link>
+            </li>
         </ul>
     </div>
   )
