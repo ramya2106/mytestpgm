@@ -10,6 +10,8 @@ import Prime from './components/Prime';
 import Fibonacci from './components/Fibonacci';
 import Anagram from './components/Anagram';
 import Swapping from './components/Swapping';
+import Frequency from './components/Frequency';
+import Lcm from './components/Lcm';
 
 const App = () => {
   return (
@@ -25,6 +27,8 @@ const App = () => {
         <Route path='/fibonacci' element={<Fibonacci/>} />
         <Route path='/anagram' element={<Anagram/>} />
         <Route path='/swapping' element={<Swapping/>} />
+        <Route path='/frequency' element={<Frequency/>} />
+        <Route path='/lcm' element={<Lcm/>} />
        </Routes>
     </div>
   )

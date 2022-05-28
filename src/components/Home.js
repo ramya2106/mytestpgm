@@ -34,6 +34,12 @@ const Home = () => {
             <li>
             <Link to="/swapping">Swap the Two strings</Link>
             </li>
+            <li>
+            <Link to="/frequency">Count character frequency in a string</Link>
+            </li>
+            <li>
+            <Link to="/lcm">LCM of two numbers</Link>
+            </li>
         </ul>
     </div>
   )
