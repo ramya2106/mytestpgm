@@ -31,6 +31,9 @@ const Home = () => {
             <li>
             <Link to="/anagram">Anagram or not</Link>
             </li>
+            <li>
+            <Link to="/swapping">Swap the Two strings</Link>
+            </li>
         </ul>
     </div>
   )

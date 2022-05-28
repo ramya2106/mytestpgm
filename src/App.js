@@ -9,6 +9,7 @@ import Stringlen from './components/Stringlen';
 import Prime from './components/Prime';
 import Fibonacci from './components/Fibonacci';
 import Anagram from './components/Anagram';
+import Swapping from './components/Swapping';
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
         <Route path='/prime' element={<Prime/>} />
         <Route path='/fibonacci' element={<Fibonacci/>} />
         <Route path='/anagram' element={<Anagram/>} />
+        <Route path='/swapping' element={<Swapping/>} />
        </Routes>
     </div>
   )
