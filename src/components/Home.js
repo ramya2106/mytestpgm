@@ -13,6 +13,9 @@ const Home = () => {
             <li>
             <Link to="/cvowels">Counts the vowels in the string</Link>
             </li>
+            <li>
+            <Link to="/amstrong">Amstrong or not</Link>
+            </li>
         </ul>
     </div>
   )
