@@ -40,6 +40,15 @@ const Home = () => {
             <li>
             <Link to="/lcm">LCM of two numbers</Link>
             </li>
+            <li>
+            <Link to="/hcf">HCF of two numbers</Link>
+            </li>
+            <li>
+            <Link to="/amicable">Amicable or not</Link>
+            </li>
+            <li>
+            <Link to="/factors">Factors of given number</Link>
+            </li>
         </ul>
     </div>
   )

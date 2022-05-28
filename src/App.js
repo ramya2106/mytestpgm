@@ -12,6 +12,9 @@ import Anagram from './components/Anagram';
 import Swapping from './components/Swapping';
 import Frequency from './components/Frequency';
 import Lcm from './components/Lcm';
+import Hcf from './components/Hcf';
+import Factors from './components/Factors';
+import Amicable from './components/Amicable';
 
 const App = () => {
   return (
@@ -29,6 +32,9 @@ const App = () => {
         <Route path='/swapping' element={<Swapping/>} />
         <Route path='/frequency' element={<Frequency/>} />
         <Route path='/lcm' element={<Lcm/>} />
+        <Route path='/hcf' element={<Hcf/>} />
+        <Route path='/amicable' element={<Amicable/>} />
+        <Route path='/factors' element={<Factors/>} />
        </Routes>
     </div>
   )
