@@ -6,6 +6,7 @@ import Cvowels from './components/Cvowels';
 import Amstrong from './components/Amstrong';
 import Palindrome from './components/Palindrome';
 import Stringlen from './components/Stringlen';
+import Prime from './components/Prime';
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Route path='/amstrong' element={<Amstrong/>} />
         <Route path='/palindrome' element={<Palindrome/>} />
         <Route path='/strlen' element={<Stringlen/>} />
+        <Route path='/prime' element={<Prime/>} />
        </Routes>
     </div>
   )

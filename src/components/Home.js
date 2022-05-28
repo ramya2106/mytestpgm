@@ -22,6 +22,9 @@ const Home = () => {
             <li>
             <Link to="/strlen">Number of words in string</Link>
             </li>
+            <li>
+            <Link to="/prime">Prime number or not</Link>
+            </li>
         </ul>
     </div>
   )
