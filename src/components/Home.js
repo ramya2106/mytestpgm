@@ -16,6 +16,9 @@ const Home = () => {
             <li>
             <Link to="/amstrong">Amstrong or not</Link>
             </li>
+            <li>
+            <Link to="/palindrome">Palindrome for a given number</Link>
+            </li>
         </ul>
     </div>
   )
