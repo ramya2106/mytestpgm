@@ -25,6 +25,9 @@ const Home = () => {
             <li>
             <Link to="/prime">Prime number or not</Link>
             </li>
+            <li>
+            <Link to="/fibonacci">Fibonacci Series</Link>
+            </li>
         </ul>
     </div>
   )
